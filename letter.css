@@ -1,0 +1,102 @@
+.letter{
+    border:1px solid black;
+    width: 40%;
+    margin: auto;
+    margin-top: 90px;
+    padding: 40px 50px;
+  
+   font-family: "Pacifico", cursive;
+    font-weight: 400;
+  font-style: normal;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+h1{
+    text-align: center;
+  font-family: "Bonheur Royale", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 45px;
+
+    
+}
+
+.dear{
+    font-family: "Bonheur Royale", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 29px;
+}
+.main{
+  
+  font-family: "Bonheur Royale", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+
+}
+button{
+  width: 100%;
+  margin: auto;
+  padding: 10px 30px;
+  border-radius: 5px;
+   font-family: "Tangerine", cursive;
+  font-weight: 700;
+  font-style:normal;
+  font-size: 30px;
+
+background: linear-gradient(to right, #b91d73, #f953c6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+button:hover{
+    background: 
+    linear-gradient(to right, #f953c6,#b91d73)
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.altheart {
+  background: url(
+http://static.indigoimages.ca/2016/shop/113439_img25_twotoneheart.png) no-repeat center;
+  width: 24px;
+  height: 21px;
+  position: relative;
+  display: block;
+}
+
+.heart {
+    position: relative;
+}
+.heart:before,
+.heart:after {
+    position: absolute;
+    content: "";
+    left: 18px;
+    top: 0;
+    width: 18px;
+    height: 30px;
+    background: #CC2022;
+    -moz-border-radius: 20px 50% 0 0;
+    border-radius: 30px 30px 0 0;
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+.heart:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
+
